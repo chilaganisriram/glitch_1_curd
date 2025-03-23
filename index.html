@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container_1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.6rem;
+            border: 3px solid black;
+        }
+        .btn{
+            background-color: rgb(235, 190, 134);
+        }
+        .container_2{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .item{
+            border: 2px solid black ;
+            border-radius: 5%;
+            padding: 4px;
+            background-color: beige;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container_1">
+        <input type="text" placeholder="id" id="id"  disabled>
+        <input type="text" placeholder="title" id="title">
+        <input type="text" placeholder="price" id="price">
+        <input type="text" placeholder="description" id="description">
+        <button class="btn" id="btn">Update/Save</button>
+    </div>
+    <div class="container_2" id="container_2" >
+        
+        
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
